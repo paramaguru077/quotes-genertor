@@ -8,7 +8,7 @@ body{
     background-color: #bbc6fa;
 }
 .quote-box{
-    width: 700px;
+    width: 30%vw;
     background-color: #fff;
     position:absolute;
     top:50%;
