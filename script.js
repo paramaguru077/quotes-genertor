@@ -1,6 +1,7 @@
 let quote = document.getElementById("quote");
 let author = document.getElementById("author");
 const apiUrl="https://api.quotable.io/quotes/random?tags=technology,famous-quotes";
+let sum=9;
 async function getquote(url){
     const response = await fetch(url);
     var data = await response.json();
